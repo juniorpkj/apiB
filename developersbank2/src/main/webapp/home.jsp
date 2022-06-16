@@ -6,7 +6,7 @@ if (session.getAttribute("midx") != null){
 	midx = (int)session.getAttribute("midx");
 }
 %>
-<!--로그인 전 1414-->
+<!--로그인 전-->
 <%
 if(midx == 0){%>
 <input type="button" style="float : right;"  value="Login" onclick="location.href='<%=request.getContextPath() %>/member/memberLogin.do'">
@@ -44,7 +44,7 @@ function check(){
 </head>
 <body style = "background-color : cornflowerblue;">
 <form name="frm">
-<h1 style= "text-align: center;margin-bottom : 50px;margin-top:80px;">Developer's Bank git test asdasd1</h1>
+<h1 style= "text-align: center;margin-bottom : 50px;margin-top:80px;">Developer's Bank</h1>
 
 <table border=0 style ="with:800px;text-align:right;margin:auto;">
 <tr>

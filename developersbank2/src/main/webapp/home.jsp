@@ -6,7 +6,7 @@ if (session.getAttribute("midx") != null){
 	midx = (int)session.getAttribute("midx");
 }
 %>
-<!--로그인 전 123-->
+<!--로그인 전 1414-->
 <%
 if(midx == 0){%>
 <input type="button" style="float : right;"  value="Login" onclick="location.href='<%=request.getContextPath() %>/member/memberLogin.do'">
